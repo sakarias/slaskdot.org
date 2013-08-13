@@ -1,0 +1,68 @@
+title:            slaskdot
+description:      Tips and tricks about stuff I'm interested in.
+logo:             icons/288x288.png
+disqus_shortname: slaskdot
+#Comment out url when working locally to resolve base urls correctly
+#url:              http://slaskdot.home.rockstable.net
+url:              http://slaskdot.org
+
+# Owner/author information
+owner:
+  name:           John Johannessen
+  avatar:         me.png
+  email:          johnj@slaskdot.org
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        sakarias
+  facebook:       john.johannessen
+  github:         sakarias
+  stackexchange:  
+  linkedin:       johnjohnnessen
+  instagram:      sakarias
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-57646-7
+google_verify:      UV1-UXssmnpEgCtCMoOnVIVbNNA6ABKFihhWli9kx4o
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        F4933029687F5F890D1848C66F53DC99
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: projects
+    url: /projects
+  - title: archive
+    url: /archive
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Oslo
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   pretty
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["Gemfile","Gemfile.lock", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
