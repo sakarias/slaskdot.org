@@ -34,7 +34,7 @@ EOF
 function publish {
   for file in _drafts/*
   do
-    echo "Publish ${file} ?"
+    echo -n "Publish ${file} ?"
     read yn
 
     case "${yn}" in
