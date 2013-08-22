@@ -11,6 +11,6 @@ tags:
 ---
 
 Its simple as:
-{% highlight bash %}
+{% highlight console %}
 rndc flush
 {% endhighlight %}
