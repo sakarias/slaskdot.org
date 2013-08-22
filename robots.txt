@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /images
 Disallow: /assets
 Crawl-delay: 20
-Sitemap: http://slaskdot.org/sitemap.txt
+Sitemap: http://slaskdot.org/sitemap.xml
