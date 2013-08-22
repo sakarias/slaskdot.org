@@ -1,10 +1,8 @@
+url: http://slaskdot.org
 title:            slaskdot
 description:      Tips and tricks about stuff I'm interested in.
 logo:             icons/288x288.png
 disqus_shortname: slaskdot
-#Comment out url when working locally to resolve base urls correctly
-#url:              http://slaskdot.home.rockstable.net
-url:              http://slaskdot.org
 
 # Owner/author information
 owner:
@@ -35,11 +33,11 @@ links:
   - title: Home
     url: /
   - title: About
-    url: /about
+    url: /about/
   - title: projects
-    url: /projects
+    url: /projects/
   - title: archive
-    url: /archive
+    url: /archive/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Oslo
