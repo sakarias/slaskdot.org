@@ -73,7 +73,7 @@ function localtest {
 function local {
   URL="http://localhost:4000"
   change_url $URL
-  jekyll serve --watch --future --drafts &
+  jekyll serve --watch --future --drafts
 }
 
 function usage {
