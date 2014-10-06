@@ -40,13 +40,14 @@ links:
     url: /archive/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Oslo
-future:      false
-pygments:    true
-markdown:    kramdown
+timezone:	Europe/Oslo
+future:		false
+#pygments:	true
+highlighter:	pygments
+markdown:	kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   pretty
+permalink:	pretty
 
 kramdown:
   auto_ids: true
